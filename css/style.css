@@ -53,6 +53,10 @@ nav a {
     color: white;
     font-size: 20px;
 }
+.center{
+    width: 1366px;
+    margin: 0 auto;
+}
 #login {
     width: 131px;
     height: 40px;
@@ -187,6 +191,12 @@ h2 {
     background-color: #9A4389;
     border-radius: 20px;
     padding: 6px 33px 10px 34px;
+    transition: transform .7s;
+}
+.lees-verder:hover{
+    -ms-transform: scale(1..05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
 }
 main{
     background-color: #F8F8F8;
@@ -218,7 +228,7 @@ h3{
     margin-top: 167px;
     margin-left: 63px;
 }
-.content-box{
+article{
     width: 229px;
     height: auto;
     float: left;
@@ -227,7 +237,7 @@ h3{
     background-color: white;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 }
-.content-box a{
+article a{
     text-decoration: none;
     color: black;
     font-size: 20px;
@@ -249,7 +259,7 @@ h4{
     margin-top: 15px;
     margin-right: 22px;
 }
-#content-left{
+.content-left{
     margin-left: 0px;
 }
 footer section{
@@ -460,8 +470,8 @@ h6{
 }
 #oculus{  
     position: absolute;
-    margin-left: 506px;
-    margin-top: -60px;
+    margin-left: 540px;
+    margin-top: 33px;
 }
 #oculus img{
     width: 428px;
