@@ -205,10 +205,6 @@ main{
     padding-top: 100px;
 }
 .main-width{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-end;
     width: 1066px;
     margin: 0 auto;
 }
@@ -242,7 +238,9 @@ article a{
     color: black;
     font-size: 20px;
     font-weight: 700;
-    margin-left: 25px;
+    padding-left: 25px;
+    width: 182px;
+    height: auto;
 }
 .content-img{
     background-image: url(../img/placeholder.png);
@@ -467,18 +465,6 @@ h6{
 }
 #nav-pagina{
     margin-bottom: 50px;
-}
-#oculus{  
-    position: absolute;
-    margin-left: 540px;
-    margin-top: 33px;
-}
-#oculus img{
-    width: 428px;
-    height: 250px;
-}
-#oculus p{
-    margin-left: 50px;
 }
 .bijschrift{
     font-size: 14px;
